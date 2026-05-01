@@ -1,0 +1,85 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "2213af2906244d4986b2",
+  "position": {
+    "x": 26.605080831408777,
+    "y": 27.522497411802185,
+    "z": 0,
+    "height": 359.62729951421522,
+    "width": 426.59870988293386,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "barChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Failed Banks"
+                    }
+                  },
+                  "Property": "State "
+                }
+              },
+              "queryRef": "Failed Banks.State ",
+              "nativeQueryRef": "State ",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Failed Banks"
+                        }
+                      },
+                      "Property": "Bank Name "
+                    }
+                  },
+                  "Function": 5
+                }
+              },
+              "queryRef": "CountNonNull(Failed Banks.Bank Name )",
+              "nativeQueryRef": "Count of Bank Name "
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "Failed Banks"
+                      }
+                    },
+                    "Property": "Bank Name "
+                  }
+                },
+                "Function": 5
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

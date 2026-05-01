@@ -1,0 +1,9 @@
+relationship 9f75911f-87fc-4c00-a2b2-bcd627bc8740
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calendar.Date
+	toColumn: LocalDateTable_aa346026-2cca-4da6-8ef9-399140242b2a.Date
+
+relationship 2bfe577b-979a-ee6b-d622-c0f1cfc3d4f6
+	fromColumn: 'Failed Banks'.'Closing Date '
+	toColumn: Calendar.Date
+

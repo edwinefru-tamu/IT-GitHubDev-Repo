@@ -1,0 +1,214 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "c3cb0b1eb49bbde7b3c0",
+  "position": {
+    "x": 630.61495682716225,
+    "y": 387.2407434509,
+    "z": 2000,
+    "height": 322.500804917313,
+    "width": 236.18088687253038,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Failed Banks"
+                    }
+                  },
+                  "Property": "State "
+                }
+              },
+              "queryRef": "Failed Banks.State ",
+              "nativeQueryRef": "State ",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Failed Banks"
+                    }
+                  },
+                  "Property": "City "
+                }
+              },
+              "queryRef": "Failed Banks.City ",
+              "nativeQueryRef": "City ",
+              "active": false
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Failed Banks"
+                        }
+                      },
+                      "Property": "Bank Name "
+                    }
+                  },
+                  "Function": 5
+                }
+              },
+              "queryRef": "Min(Failed Banks.Bank Name )",
+              "nativeQueryRef": "Count of Bank Name "
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "Failed Banks"
+                      }
+                    },
+                    "Property": "Bank Name "
+                  }
+                },
+                "Function": 5
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "expansionStates": [
+      {
+        "roles": [
+          "Rows"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "Failed Banks.State "
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Failed Banks"
+                    }
+                  },
+                  "Property": "State "
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "Failed Banks.City "
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          }
+        ],
+        "root": {}
+      }
+    ],
+    "objects": {
+      "values": [
+        {
+          "properties": {
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "rowHeaders": [
+        {
+          "properties": {
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "f2723b89e0020507d232",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Failed Banks"
+                  }
+                },
+                "Property": "Bank Name "
+              }
+            },
+            "Function": 5
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "d8187937db3d6005882b",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Failed Banks"
+              }
+            },
+            "Property": "State "
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "b8e0eb2cbd22cd9b5b4e",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Failed Banks"
+              }
+            },
+            "Property": "City "
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}
