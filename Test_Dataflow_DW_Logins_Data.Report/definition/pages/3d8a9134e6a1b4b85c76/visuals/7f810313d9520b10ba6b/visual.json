@@ -1,0 +1,125 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.8.0/schema.json",
+  "name": "7f810313d9520b10ba6b",
+  "position": {
+    "x": 40.256021679830269,
+    "y": 87.906006525343656,
+    "z": 0,
+    "height": 618.62825152882021,
+    "width": 1239.7211574462017,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Howdy_PastData"
+                    }
+                  },
+                  "Property": "Howdy_Logins_Date"
+                }
+              },
+              "queryRef": "Howdy_PastData.Howdy_Logins_Date",
+              "nativeQueryRef": "Date",
+              "active": true,
+              "displayName": "Date"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Howdy_PastData"
+                        }
+                      },
+                      "Property": "Logins"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(Howdy_PastData.Logins)",
+              "nativeQueryRef": "Logins",
+              "displayName": "Logins"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Howdy_PastData"
+                        }
+                      },
+                      "Property": "Users"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(Howdy_PastData.Users)",
+              "nativeQueryRef": "Users",
+              "displayName": "Users"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Howdy_PastData"
+                  }
+                },
+                "Property": "Howdy_Logins_Date"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "dataPoint": [
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 4,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(Howdy_PastData.Users)"
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

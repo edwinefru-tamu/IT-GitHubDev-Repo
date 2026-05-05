@@ -1,0 +1,10 @@
+relationship e0b5ad66-cc36-4ac9-ab23-55a38ec7fd1b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Howdy_PastData.Howdy_Logins_Date
+	toColumn: LocalDateTable_f7c6baa1-3041-48f7-9f28-01327f9bdea7.Date
+
+relationship e45fbef7-a122-423c-9268-335d45d1ce43
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Howdy_PastData.DWH_INS_DATE
+	toColumn: LocalDateTable_ad7d8eb6-6a5c-46ab-961d-593221ec4e3d.Date
+

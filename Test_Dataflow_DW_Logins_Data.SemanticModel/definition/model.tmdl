@@ -1,0 +1,21 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Howdy_PastData"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Howdy_PastData
+ref table DateTableTemplate_fd3e2c14-9022-4c6f-be74-569b01bd0fa9
+ref table LocalDateTable_f7c6baa1-3041-48f7-9f28-01327f9bdea7
+ref table LocalDateTable_ad7d8eb6-6a5c-46ab-961d-593221ec4e3d
+
+ref cultureInfo en-US
+

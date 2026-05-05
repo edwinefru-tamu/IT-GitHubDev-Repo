@@ -1,0 +1,65 @@
+table Howdy_PastData
+	lineageTag: 6bea7cd3-41d9-4f70-9c54-257dab1e23a3
+
+	column Howdy_Logins_Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 4690af5b-6015-480a-9f98-eb80a82fe886
+		summarizeBy: none
+		sourceColumn: Howdy_Logins_Date
+
+		variation Variation
+			isDefault
+			relationship: e0b5ad66-cc36-4ac9-ab23-55a38ec7fd1b
+			defaultHierarchy: LocalDateTable_f7c6baa1-3041-48f7-9f28-01327f9bdea7.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Logins
+		dataType: int64
+		formatString: 0
+		lineageTag: d823f14e-97d6-437d-86f7-2ec80ba9c070
+		summarizeBy: sum
+		sourceColumn: Logins
+
+		annotation SummarizationSetBy = Automatic
+
+	column Users
+		dataType: int64
+		formatString: 0
+		lineageTag: bd119b30-3a9c-4fba-bea2-4cf46d0ab28f
+		summarizeBy: sum
+		sourceColumn: Users
+
+		annotation SummarizationSetBy = Automatic
+
+	column DWH_INS_DATE
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: c096588d-a515-4ca4-a55c-d96d18209eba
+		summarizeBy: none
+		sourceColumn: DWH_INS_DATE
+
+		variation Variation
+			isDefault
+			relationship: e45fbef7-a122-423c-9268-335d45d1ce43
+			defaultHierarchy: LocalDateTable_ad7d8eb6-6a5c-46ab-961d-593221ec4e3d.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Howdy_PastData = m
+		mode: import
+		source =
+				let
+				    Source = PowerPlatform.Dataflows(null),
+				    Workspaces = Source{[Id="Workspaces"]}[Data],
+				    #"24881ec5-0842-45ea-8f43-96a9c8c2fef9" = Workspaces{[workspaceId="24881ec5-0842-45ea-8f43-96a9c8c2fef9"]}[Data],
+				    #"8d51392a-c3f3-4949-a261-2266812279a9" = #"24881ec5-0842-45ea-8f43-96a9c8c2fef9"{[dataflowId="8d51392a-c3f3-4949-a261-2266812279a9"]}[Data],
+				    Howdy_PastData_ = #"8d51392a-c3f3-4949-a261-2266812279a9"{[entity="Howdy_PastData",version=""]}[Data]
+				in
+				    Howdy_PastData_
+
+	annotation PBI_ResultType = Table
+

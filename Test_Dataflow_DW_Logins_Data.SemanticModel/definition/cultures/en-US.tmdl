@@ -1,0 +1,1583 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "howdy_past_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Howdy_PastData"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "howdy past data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Howdy_PastData": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "howdy past information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "howdy past fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "howdy past info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "howdy past statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "howdy past document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "howdy past figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "howdy past record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "howdy_past_data.howdy_logins_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Howdy_PastData",
+			          "ConceptualProperty": "Howdy_Logins_Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "howdy logins date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "howdy login date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Howdy_Logins_Date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "howdy login moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "howdy login period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "howdy_past_data.howdy_logins_date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Howdy_PastData",
+			          "VariationSource": "Howdy_Logins_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "howdy logins date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "howdy login date hierarchy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "howdy_past_data.howdy_logins_date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Howdy_PastData",
+			          "VariationSource": "Howdy_Logins_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "howdy logins year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "howdy login year": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "howdy logins date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "howdy login date year": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "howdy login date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "howdy login yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "howdy login moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "howdy login period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "howdy_past_data.howdy_logins_date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Howdy_PastData",
+			          "VariationSource": "Howdy_Logins_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "howdy logins quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "howdy login quarter": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "howdy logins date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "howdy login date quarter": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "howdy login date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.857
+			          }
+			        },
+			        {
+			          "howdy login qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "howdy login moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "howdy login period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "howdy_past_data.howdy_logins_date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Howdy_PastData",
+			          "VariationSource": "Howdy_Logins_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "howdy logins month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "howdy login month": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "howdy logins date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "howdy login date month": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "howdy login date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "howdy login mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "howdy login moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "howdy login period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "howdy_past_data.howdy_logins_date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Howdy_PastData",
+			          "VariationSource": "Howdy_Logins_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "howdy logins day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "howdy login day": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "howdy logins date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "howdy login date day": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "howdy login moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "howdy login period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "howdy_past_data.login": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Howdy_PastData",
+			          "ConceptualProperty": "Logins"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "login": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "howdy_past_data.user": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Howdy_PastData",
+			          "ConceptualProperty": "Users"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "user": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "operator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "employer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manipulator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "handler": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manager": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "punter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "howdy_past_data.dwh_ins_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Howdy_PastData",
+			          "ConceptualProperty": "DWH_INS_DATE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dwh ins date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dwh in date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "DWH_INS_DATE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "dwh in moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "dwh in period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "howdy_past_data.dwh_ins_date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Howdy_PastData",
+			          "VariationSource": "DWH_INS_DATE",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dwh ins date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dwh in date hierarchy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "howdy_past_data.dwh_ins_date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Howdy_PastData",
+			          "VariationSource": "DWH_INS_DATE",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dwh ins year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dwh in year": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dwh ins date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dwh in date year": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "dwh in date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "dwh in yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "dwh in moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "dwh in period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "howdy_past_data.dwh_ins_date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Howdy_PastData",
+			          "VariationSource": "DWH_INS_DATE",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dwh ins quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dwh in quarter": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dwh ins date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dwh in date quarter": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "dwh in date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.857
+			          }
+			        },
+			        {
+			          "dwh in qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "dwh in moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "dwh in period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "howdy_past_data.dwh_ins_date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Howdy_PastData",
+			          "VariationSource": "DWH_INS_DATE",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dwh ins month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dwh in month": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dwh ins date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dwh in date month": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "dwh in date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "dwh in mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "dwh in moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "dwh in period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "howdy_past_data.dwh_ins_date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Howdy_PastData",
+			          "VariationSource": "DWH_INS_DATE",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dwh ins day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dwh in day": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dwh ins date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dwh in date day": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "dwh in moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "dwh in period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dataflow_howdy_pastdata.howdy_logins_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataFlow_Howdy_PastData",
+			          "ConceptualProperty": "Howdy_Logins_Date"
+			        }
+			      },
+			      "State": "Generated"
+			    }
+			  },
+			  "Relationships": {
+			    "howdy_past_data_has_howdy_logins_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Howdy_PastData"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "howdy_past_data": {
+			          "Target": {
+			            "Entity": "howdy_past_data"
+			          }
+			        },
+			        "howdy_past_data.howdy_logins_date": {
+			          "Target": {
+			            "Entity": "howdy_past_data.howdy_logins_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "howdy_past_data"
+			            },
+			            "Object": {
+			              "Role": "howdy_past_data.howdy_logins_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "howdy_past_data_have_howdy_logins_dates"
+			        }
+			      ]
+			    },
+			    "howdy_past_data_has_login": {
+			      "Binding": {
+			        "ConceptualEntity": "Howdy_PastData"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "howdy_past_data": {
+			          "Target": {
+			            "Entity": "howdy_past_data"
+			          }
+			        },
+			        "howdy_past_data.login": {
+			          "Target": {
+			            "Entity": "howdy_past_data.login"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "howdy_past_data"
+			            },
+			            "Object": {
+			              "Role": "howdy_past_data.login"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "howdy_past_data_have_logins"
+			        }
+			      ]
+			    },
+			    "howdy_past_data_has_user": {
+			      "Binding": {
+			        "ConceptualEntity": "Howdy_PastData"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "howdy_past_data": {
+			          "Target": {
+			            "Entity": "howdy_past_data"
+			          }
+			        },
+			        "howdy_past_data.user": {
+			          "Target": {
+			            "Entity": "howdy_past_data.user"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "howdy_past_data"
+			            },
+			            "Object": {
+			              "Role": "howdy_past_data.user"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "howdy_past_data_have_users"
+			        }
+			      ]
+			    },
+			    "howdy_past_data_has_dwh_ins_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Howdy_PastData"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "howdy_past_data": {
+			          "Target": {
+			            "Entity": "howdy_past_data"
+			          }
+			        },
+			        "howdy_past_data.dwh_ins_date": {
+			          "Target": {
+			            "Entity": "howdy_past_data.dwh_ins_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "howdy_past_data"
+			            },
+			            "Object": {
+			              "Role": "howdy_past_data.dwh_ins_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "howdy_past_data_have_dwh_ins_dates"
+			        }
+			      ]
+			    },
+			    "howdy_past_data_howdy_logins_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Howdy_PastData"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "howdy_past_data.howdy_logins_date": {
+			          "Target": {
+			            "Entity": "howdy_past_data.howdy_logins_date"
+			          }
+			        },
+			        "howdy_past_data.howdy_logins_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "howdy_past_data.howdy_logins_date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "howdy_past_data.howdy_logins_date"
+			            },
+			            "Object": {
+			              "Role": "howdy_past_data.howdy_logins_date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "howdy_logins_dates_have_howdy_logins_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "howdy_past_data_howdy_logins_date_date_hierarchy_has_howdy_past_data_howdy_logins_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Howdy_PastData"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "howdy_past_data.howdy_logins_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "howdy_past_data.howdy_logins_date.date_hierarchy"
+			          }
+			        },
+			        "howdy_past_data.howdy_logins_date.year": {
+			          "Target": {
+			            "Entity": "howdy_past_data.howdy_logins_date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "howdy_past_data.howdy_logins_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "howdy_past_data.howdy_logins_date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "howdy_logins_date_hierarchies_have_howdy_logins_years"
+			        }
+			      ]
+			    },
+			    "howdy_past_data_howdy_logins_date_date_hierarchy_has_howdy_past_data_howdy_logins_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Howdy_PastData"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "howdy_past_data.howdy_logins_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "howdy_past_data.howdy_logins_date.date_hierarchy"
+			          }
+			        },
+			        "howdy_past_data.howdy_logins_date.quarter": {
+			          "Target": {
+			            "Entity": "howdy_past_data.howdy_logins_date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "howdy_past_data.howdy_logins_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "howdy_past_data.howdy_logins_date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "howdy_logins_date_hierarchies_have_howdy_logins_quarters"
+			        }
+			      ]
+			    },
+			    "howdy_past_data_howdy_logins_date_date_hierarchy_has_howdy_past_data_howdy_logins_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Howdy_PastData"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "howdy_past_data.howdy_logins_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "howdy_past_data.howdy_logins_date.date_hierarchy"
+			          }
+			        },
+			        "howdy_past_data.howdy_logins_date.month": {
+			          "Target": {
+			            "Entity": "howdy_past_data.howdy_logins_date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "howdy_past_data.howdy_logins_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "howdy_past_data.howdy_logins_date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "howdy_logins_date_hierarchies_have_howdy_logins_months"
+			        }
+			      ]
+			    },
+			    "howdy_past_data_howdy_logins_date_date_hierarchy_has_howdy_past_data_howdy_logins_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Howdy_PastData"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "howdy_past_data.howdy_logins_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "howdy_past_data.howdy_logins_date.date_hierarchy"
+			          }
+			        },
+			        "howdy_past_data.howdy_logins_date.day": {
+			          "Target": {
+			            "Entity": "howdy_past_data.howdy_logins_date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "howdy_past_data.howdy_logins_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "howdy_past_data.howdy_logins_date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "howdy_logins_date_hierarchies_have_howdy_logins_days"
+			        }
+			      ]
+			    },
+			    "howdy_past_data_dwh_ins_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Howdy_PastData"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "howdy_past_data.dwh_ins_date": {
+			          "Target": {
+			            "Entity": "howdy_past_data.dwh_ins_date"
+			          }
+			        },
+			        "howdy_past_data.dwh_ins_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "howdy_past_data.dwh_ins_date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "howdy_past_data.dwh_ins_date"
+			            },
+			            "Object": {
+			              "Role": "howdy_past_data.dwh_ins_date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dwh_ins_dates_have_dwh_ins_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "howdy_past_data_dwh_ins_date_date_hierarchy_has_howdy_past_data_dwh_ins_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Howdy_PastData"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "howdy_past_data.dwh_ins_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "howdy_past_data.dwh_ins_date.date_hierarchy"
+			          }
+			        },
+			        "howdy_past_data.dwh_ins_date.year": {
+			          "Target": {
+			            "Entity": "howdy_past_data.dwh_ins_date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "howdy_past_data.dwh_ins_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "howdy_past_data.dwh_ins_date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dwh_ins_date_hierarchies_have_dwh_ins_years"
+			        }
+			      ]
+			    },
+			    "howdy_past_data_dwh_ins_date_date_hierarchy_has_howdy_past_data_dwh_ins_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Howdy_PastData"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "howdy_past_data.dwh_ins_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "howdy_past_data.dwh_ins_date.date_hierarchy"
+			          }
+			        },
+			        "howdy_past_data.dwh_ins_date.quarter": {
+			          "Target": {
+			            "Entity": "howdy_past_data.dwh_ins_date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "howdy_past_data.dwh_ins_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "howdy_past_data.dwh_ins_date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dwh_ins_date_hierarchies_have_dwh_ins_quarters"
+			        }
+			      ]
+			    },
+			    "howdy_past_data_dwh_ins_date_date_hierarchy_has_howdy_past_data_dwh_ins_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Howdy_PastData"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "howdy_past_data.dwh_ins_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "howdy_past_data.dwh_ins_date.date_hierarchy"
+			          }
+			        },
+			        "howdy_past_data.dwh_ins_date.month": {
+			          "Target": {
+			            "Entity": "howdy_past_data.dwh_ins_date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "howdy_past_data.dwh_ins_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "howdy_past_data.dwh_ins_date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dwh_ins_date_hierarchies_have_dwh_ins_months"
+			        }
+			      ]
+			    },
+			    "howdy_past_data_dwh_ins_date_date_hierarchy_has_howdy_past_data_dwh_ins_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Howdy_PastData"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "howdy_past_data.dwh_ins_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "howdy_past_data.dwh_ins_date.date_hierarchy"
+			          }
+			        },
+			        "howdy_past_data.dwh_ins_date.day": {
+			          "Target": {
+			            "Entity": "howdy_past_data.dwh_ins_date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "howdy_past_data.dwh_ins_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "howdy_past_data.dwh_ins_date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dwh_ins_date_hierarchies_have_dwh_ins_days"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

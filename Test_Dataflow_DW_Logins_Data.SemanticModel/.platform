@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Test_Dataflow_DW_Logins_Data"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d538ac1a-ccb1-96f9-47cb-0896974fb77f"
+  }
+}
